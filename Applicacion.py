@@ -199,7 +199,7 @@ st.markdown("---")
 # ================================================================
 with st.expander(t("ℹ️ Acerca de esta aplicación", "ℹ️ About this application"), expanded=False):
     st.markdown(t(
-         """
+        """
         Esta aplicación implementa los modelos estadísticos presentados en nuestro artículo científico
         para predecir el número de **Eyecciones de Masa Coronal (CMEs) de alta velocidad** durante 2025–2026,
         en el contexto del **Ciclo Solar 25**.
@@ -216,6 +216,10 @@ with st.expander(t("ℹ️ Acerca de esta aplicación", "ℹ️ About this appli
         [github.com/JuanAnarch7/Forecasting-Coronal-Mass-Ejection-Occurrence-Rates-Using-ARIMA-and-ARIMAX-Models](https://github.com/JuanAnarch7/Forecasting-Coronal-Mass-Ejection-Occurrence-Rates-Using-ARIMA-and-ARIMAX-Models)
 
         **Datos requeridos:** Archivos CSV/TXT de la misión LASCO y el catálogo SILSO (WDC-SILSO, Observatorio Real de Bélgica).
+
+        ---
+
+        **👥 Autores:** Este trabajo fue desarrollado por Juan Rafael Jiménez Sanabria, Cristian David Chávez Aponte y Daniel Felipe Pineda Cruz.
         """,
         """
         This application implements the statistical models presented in our scientific paper
@@ -233,17 +237,11 @@ with st.expander(t("ℹ️ Acerca de esta aplicación", "ℹ️ About this appli
         are available at the GitHub repository:
         [github.com/JuanAnarch7/Forecasting-Coronal-Mass-Ejection-Occurrence-Rates-Using-ARIMA-and-ARIMAX-Models](https://github.com/JuanAnarch7/Forecasting-Coronal-Mass-Ejection-Occurrence-Rates-Using-ARIMA-and-ARIMAX-Models)
 
-        ## 👥 Autores | Authors
-
-        **ES:** Este trabajo fue desarrollado por:
-
-        **EN:** This work was developed by:
-
-        - **Juan Rafael Jiménez Sanabria** — [@JuanAnarch7](https://github.com/JuanAnarch7)
-        - **Cristian David Chávez Aponte**
-        - **Daniel Felipe Pineda Cruz**
-
         **Required data:** CSV/TXT files from the LASCO mission and the SILSO catalog (WDC-SILSO, Royal Observatory of Belgium).
+
+        ---
+
+        **👥 Authors:** This work was developed by Juan Rafael Jiménez Sanabria, Cristian David Chávez Aponte and Daniel Felipe Pineda Cruz.
         """
     ))
 
