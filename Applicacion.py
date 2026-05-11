@@ -199,7 +199,7 @@ st.markdown("---")
 # ================================================================
 with st.expander(t("ℹ️ Acerca de esta aplicación", "ℹ️ About this application"), expanded=False):
     st.markdown(t(
-        """
+         """
         Esta aplicación implementa los modelos estadísticos presentados en nuestro artículo científico
         para predecir el número de **Eyecciones de Masa Coronal (CMEs) de alta velocidad** durante 2025–2026,
         en el contexto del **Ciclo Solar 25**.
@@ -209,6 +209,11 @@ with st.expander(t("ℹ️ Acerca de esta aplicación", "ℹ️ About this appli
         - Se ajustan modelos **ARIMA** (univariado) y **ARIMAX** (con manchas solares como variable exógena)
         - Los escenarios de manchas solares provienen de las predicciones oficiales **SILSO** para el Ciclo Solar 25
         - Se proyectan 3 escenarios: Curva Estándar (SC), Método Combinado (CM), McNish & Lincoln (ML)
+
+        **📂 Datos y código disponibles públicamente:**
+        Los datos preprocesados, los criterios de preprocesamiento y el código completo de implementación
+        de los modelos están disponibles en el repositorio de GitHub:
+        [github.com/JuanAnarch7/Forecasting-Coronal-Mass-Ejection-Occurrence-Rates-Using-ARIMA-and-ARIMAX-Models](https://github.com/JuanAnarch7/Forecasting-Coronal-Mass-Ejection-Occurrence-Rates-Using-ARIMA-and-ARIMAX-Models)
 
         **Datos requeridos:** Archivos CSV/TXT de la misión LASCO y el catálogo SILSO (WDC-SILSO, Observatorio Real de Bélgica).
         """,
@@ -222,6 +227,11 @@ with st.expander(t("ℹ️ Acerca de esta aplicación", "ℹ️ About this appli
         - **ARIMA** (univariate) and **ARIMAX** (with sunspots as exogenous variable) models are fitted
         - Sunspot scenarios come from official **SILSO** predictions for Solar Cycle 25
         - 3 scenarios are projected: Standard Curve (SC), Combined Method (CM), McNish & Lincoln (ML)
+
+        **📂 Publicly available data and code:**
+        The preprocessed data, preprocessing criteria, and full model implementation code
+        are available at the GitHub repository:
+        [github.com/JuanAnarch7/Forecasting-Coronal-Mass-Ejection-Occurrence-Rates-Using-ARIMA-and-ARIMAX-Models](https://github.com/JuanAnarch7/Forecasting-Coronal-Mass-Ejection-Occurrence-Rates-Using-ARIMA-and-ARIMAX-Models)
 
         **Required data:** CSV/TXT files from the LASCO mission and the SILSO catalog (WDC-SILSO, Royal Observatory of Belgium).
         """
